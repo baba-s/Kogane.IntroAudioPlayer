@@ -39,5 +39,14 @@ namespace Kogane
             m_introAudioSource.Stop();
             m_loopAudioSource.Stop();
         }
+
+        /// <summary>
+        /// 音量を設定します
+        /// </summary>
+        public void SetVolume( float volume )
+        {
+            m_introAudioSource.volume = volume;
+            m_loopAudioSource.volume  = volume;
+        }
     }
 }
