@@ -2,6 +2,9 @@
 
 namespace Kogane
 {
+    /// <summary>
+    /// AudioClip のイントロ付きループ再生ができるコンポーネント
+    /// </summary>
     [DisallowMultipleComponent]
     public sealed class IntroAudioPlayer : MonoBehaviour
     {
